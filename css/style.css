@@ -1,0 +1,227 @@
+nav {
+  background-color: rgb(4, 58, 4);
+  width: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav a {
+  padding: 10px;
+  color: lightblue;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#game-board {
+  border: 5px black solid;
+  margin: auto;
+  width: 1300px;
+}
+
+#catergories {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+#catergories div {
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: white;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#one-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#one-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#one-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#two-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#two-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#two-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#three-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#three-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#three-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#four-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#four-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#four-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#five-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#five-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#five-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal {
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.modal button {
+  padding: 10px 30px;
+  background-color: #2980b9;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#questionText {
+  text-align: center;
+  line-height: 25px;
+}
+
+input[type=radio] {
+  margin-left: 20px;
+}
+
+label {
+  line-height: 25px;
+  margin: 10px;
+}
+
+.clicked {
+  background-color: black !important;
+  color: black !important;
+  pointer-events: none !important; 
+ 
+}
