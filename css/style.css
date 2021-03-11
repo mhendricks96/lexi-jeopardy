@@ -26,14 +26,14 @@ h2 {
   width: 1300px;
 }
 
-#catergories {
+#categories {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 35px;
 }
 
-#catergories div {
+#categories div {
   display: inline-block;
   border: 1px black solid;
   background-color: rgb(4, 58, 4);
