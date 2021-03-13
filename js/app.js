@@ -28,39 +28,39 @@ Category.prototype.addQuestion = function (question, answer, a, b, c, points) {
 // Questions
 
 let whoreCategory = new Category('whore');
-whoreCategory.addQuestion('first question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 1);
-whoreCategory.addQuestion('second question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 1);
-whoreCategory.addQuestion('third question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 1);
-whoreCategory.addQuestion('fourth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 1);
-whoreCategory.addQuestion('fifth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 1);
+whoreCategory.addQuestion('first question in whore category', 'correct answer', 'wrong answer', 'wrong answer', 'correct answer', 1);
+whoreCategory.addQuestion('second question in whore category', 'correct answer', 'wrong answer', 'correct answer', 'wrong answer', 1);
+whoreCategory.addQuestion('third question in whore category', 'correct answer', 'wrong answer', 'correct answer', 'wrong answer', 1);
+whoreCategory.addQuestion('fourth question in whore category', 'correct answer', 'correct answer', 'wrong answer', 'wrong answer', 1);
+whoreCategory.addQuestion('fifth question in whore category', 'correct answer', 'wrong answer', 'correct', 'wrong answer', 1);
 
 let tvCategory = new Category('reality');
-tvCategory.addQuestion('first question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
-tvCategory.addQuestion('second question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
-tvCategory.addQuestion('third question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
-tvCategory.addQuestion('fourth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
-tvCategory.addQuestion('fifth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
+tvCategory.addQuestion('first question in tv category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
+tvCategory.addQuestion('second question in tv category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
+tvCategory.addQuestion('third question in tv category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
+tvCategory.addQuestion('fourth question in tv category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
+tvCategory.addQuestion('fifth question in tv category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 2);
 
 let eazyCategory = new Category('eazy');
-eazyCategory.addQuestion('first question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
-eazyCategory.addQuestion('second question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
-eazyCategory.addQuestion('third question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
-eazyCategory.addQuestion('fourth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
-eazyCategory.addQuestion('fifth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
+eazyCategory.addQuestion('first question in eazy category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
+eazyCategory.addQuestion('second question in eazy category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
+eazyCategory.addQuestion('third question in eazy category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
+eazyCategory.addQuestion('fourth question in eazy category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
+eazyCategory.addQuestion('fifth question in eazy category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 3);
 
 let anotherCategory = new Category('another');
-anotherCategory.addQuestion('first question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
-anotherCategory.addQuestion('second question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
-anotherCategory.addQuestion('third question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
-anotherCategory.addQuestion('fourth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
-anotherCategory.addQuestion('fifth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
+anotherCategory.addQuestion('first question in another category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
+anotherCategory.addQuestion('second question in another category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
+anotherCategory.addQuestion('third question in another category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
+anotherCategory.addQuestion('fourth question in another category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
+anotherCategory.addQuestion('fifth question in another category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 4);
 
 let somethingElseCategory = new Category('something');
-somethingElseCategory.addQuestion('first question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
-somethingElseCategory.addQuestion('second question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
-somethingElseCategory.addQuestion('third question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
-somethingElseCategory.addQuestion('fourth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
-somethingElseCategory.addQuestion('fifth question in this category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
+somethingElseCategory.addQuestion('first question in something category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
+somethingElseCategory.addQuestion('second question in something category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
+somethingElseCategory.addQuestion('third question in something category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
+somethingElseCategory.addQuestion('fourth question in something category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
+somethingElseCategory.addQuestion('fifth question in something category', 'correct answer', 'wrong answer', 'wrong answer', 'wrong answer', 5);
 
 
 
