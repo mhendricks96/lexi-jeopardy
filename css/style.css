@@ -1,0 +1,177 @@
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: rgb(4, 58, 4);
+  width: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav a {
+  padding: 10px;
+  color: lightblue;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#game-board {
+  border: 5px black solid;
+  margin: auto;
+  width: 1300px;
+}
+
+#categories {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+#categories div {
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: white;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#one-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#one-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#one-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#two-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#two-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#two-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#three-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#three-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#three-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#four-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#four-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#four-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+#five-drink-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#five-drink-row div {
+  font-size: 50px;
+  display: inline-block;
+  border: 1px black solid;
+  background-color: rgb(4, 58, 4);
+  color: yellowgreen;
+  height: 70px;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+}
+
+#five-drink-row div:hover {
+  transform: scale(1.1);
+  transition: 350ms;
+  box-shadow: 0px 4px 4px 0px black;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(129, 86, 5);
+}
+
+a:visited {
+  color:black
+}
