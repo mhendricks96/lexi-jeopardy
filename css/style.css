@@ -168,10 +168,10 @@ h2 {
   cursor: pointer;
 }
 
-a {
+main a {
   color: rgb(129, 86, 5);
 }
 
-a:visited {
-  color:black
+main a:visited {
+  color: rgb(4, 58, 4);
 }
