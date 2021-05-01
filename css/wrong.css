@@ -1,9 +1,21 @@
 body {
-  background-color: grey;
-  color: rgb(121, 39, 39);
-  font-size: 80 px;
+  background-color: lightblue;
+  color: forestgreen;
+  text-align: center;
+  font-size: 90px;
+  padding-top: 0px;
 }
 
-header{
-  font-size: 80 px;
+nav {
+  padding-top: 250px;
+}
+
+li {
+  display: inline;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+header {
+  padding-top: 100px;
 }
